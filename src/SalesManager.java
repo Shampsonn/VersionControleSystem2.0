@@ -14,12 +14,12 @@ public class SalesManager {
         }
         return max;
     }
-        public int average(){
-            int max = sales[0];
-            int min = sales[0];
-            int averege = 0;
-            int sum = 0;
-            for (int sale : sales) {
+        public long average(){
+            long max = sales[0];
+            long min = sales[0];
+            long averege = 0;
+            long sum = 0;
+            for (long sale : sales) {
                 sum += sale;
                 if (sale > max){
                     max = sale;

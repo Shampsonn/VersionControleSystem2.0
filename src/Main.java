@@ -14,5 +14,6 @@ public class Main {
 
        SalesManager salesManager = new SalesManager(week);
        System.out.println(salesManager.max());
+       System.out.println(salesManager.average());
     }
 }

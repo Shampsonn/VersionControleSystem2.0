@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-         int [] week = new int[3];
+         long[] week = new long[3];
          week[0] = 1234;
          week[1] = 42341;
          week[2] = 24421;
